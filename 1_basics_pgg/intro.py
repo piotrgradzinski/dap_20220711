@@ -81,3 +81,14 @@ John
 Mark
 Anna
 ''')
+
+
+# printing multiple things
+print('John', 10, True)  # 3 separate arguments
+
+
+# concatenating different types
+# print('My age is ' + 10)  # this will not work because we try to concatenate string with integer - we can only concatenate strings
+print('My age is' + str(10))  # integer to string conversion
+
+print('Moby dick')
