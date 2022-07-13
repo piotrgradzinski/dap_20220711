@@ -92,3 +92,21 @@ print('John', 10, True)  # 3 separate arguments
 print('My age is' + str(10))  # integer to string conversion
 
 print('Moby dick')
+
+
+# since python 3.6 we can do string concatenation in even easier way...
+# we can f-strings: https://realpython.com/python-f-strings/
+
+rate = 10.456
+last_name = 'Doe'
+
+# when we want to use f-string, we have to put f before quotes
+print(f'My last name is {last_name}')
+#       My last name is Doe
+
+# with f-string we can use format specifiers: https://docs.python.org/3.9/library/string.html#formatspec
+print(f'My last name is {last_name} and my rate is |{rate:_^10.1f}|')
+#       My last name is Doe and my rate is 10.456
+
+# without f-string
+print('My last name is ' + last_name + ' and my rate is ' + str(rate))
