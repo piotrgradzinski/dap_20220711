@@ -110,3 +110,43 @@ print(f'My last name is {last_name} and my rate is |{rate:_^10.1f}|')
 
 # without f-string
 print('My last name is ' + last_name + ' and my rate is ' + str(rate))
+
+# data types conversion
+print('-' * 30)
+# print('-' * '*')
+
+# input function returns a string, always
+my_variable = "12.345"
+print(float(my_variable) + 5)
+
+shoe_number_str = "46"
+shoe_number_int = int(shoe_number_str)
+
+print(shoe_number_str)
+print(type(shoe_number_str))
+
+print(shoe_number_int)
+print(type(shoe_number_int))
+
+print('-' * 30)
+
+# Comparison operators
+print(1 == 1)  # Warining! We have two = signs! One equal sign is an assignment operator
+print(1 != 1)
+print(2 > 1)
+print(2 < 3)
+print(1 <= 1)
+print(1 >= 1)
+
+print('-' * 10)
+
+# Logical operators
+print(True and True)
+print(False or True)
+print(not False)
+
+print('-' * 10)
+
+# https://stackoverflow.com/questions/4806911/how-are-strings-compared
+print('abc' < 'b')
+
