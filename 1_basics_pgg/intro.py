@@ -150,10 +150,16 @@ print('-' * 10)
 # https://stackoverflow.com/questions/4806911/how-are-strings-compared
 print('abc' < 'b')
 
+print('-' * 30)
 
+# Loops - while
 
+i = 0
+while i < 10:
+    print(i)
+    i += 1  # exactly the same as: i = i + 1, there is no i++ operator in Python
 
-
+print('After while loop')
 
 
 
