@@ -8,3 +8,8 @@ Sample program output:
 ...
 """
 
+i = 1
+
+while i <= 100:
+    print(f'{i} square equals {i ** 2}')
+    i += 1
