@@ -9,5 +9,6 @@ number = int(input('Provide a number: '))
 
 # https://docs.python.org/3/reference/expressions.html#operator-precedence
 result = (number % 2 != 0 and number % 3 == 0 and number > 10) or number == 7
+# True or False -> True
 
 print(f'Result: {result}')
