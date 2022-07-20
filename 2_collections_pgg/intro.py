@@ -1,6 +1,7 @@
 # Data structures - collections
 
-# Tuple
+# TUPLE
+# (, )
 # https://realpython.com/python-lists-tuples/
 # - ordered
 # - immutable - we can't change the content of the tuple after we created it
@@ -49,4 +50,82 @@ print(d[5:-2])  # ('f', 'g', 'h')
 print(d[0:6:2])  # ('a', 'c', 'e')
 print(d[::2])  # ('a', 'c', 'e', 'g', 'i')
 print(d[::-1])  # ('j', 'i', 'h', 'g', 'f', 'e', 'd', 'c', 'b', 'a')
+
+
+# useful methods
+
+print(len(d))
+print('c' in d)
+print('q' not in d)
+
+#    0   1   2   3   4
+e = (10, 20, 30, 40, 50)
+print(max(e))
+print(min(e))
+print(sum(e))
+
+print(e.index(30))
+
+f = (1, 2, 3)
+g = (4, 5, 6)
+
+h = f + g
+print(h)
+
+i = f * 3
+print(i)
+
+print('-' * 30)
+
+# LIST
+# [,]
+# - mutable
+# - ordered
+
+#    0   1   2   3   4   5   6   7   8   9
+a = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+# access operator [] - it works exactly the same as for tuples
+print(a[0])
+print(a[::-1])
+
+# we can change the content of the list
+print(a)
+a[0] = 11
+print(a)
+
+a.append(110)
+print(a)
+
+a.insert(1, 12)
+print(a)
+
+a.extend([200, 210, 220])
+print(a)
+
+a += [300, 310, 320]
+print(a)
+
+print(a)
+a[1:3] = [1, 2]
+print(a)
+
+del(a[0])
+print(a)
+
+del(a[0:3])
+print(a)
+
+a.remove(310)
+print(a)
+
+a.sort()
+print(a)
+
+a.sort(reverse=True)
+print(a)
+
+# empty list creation
+a = []
+a = list()
 
