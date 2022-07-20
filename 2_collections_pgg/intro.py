@@ -129,3 +129,18 @@ print(a)
 a = []
 a = list()
 
+print('-' * 30)
+
+# how we can iterate through a list (or tuple)
+# we can leverage for loop
+
+list_of_numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+for number in list_of_numbers:
+    print(number)
+
+print('---')
+
+tuple_of_numbers = (10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+for number in tuple_of_numbers:
+    print(number)
