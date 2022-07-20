@@ -168,3 +168,14 @@ print('-' * 30)
 
 for i in range(-5, 6, 2):
     print(i)
+
+print('-' * 30)
+
+
+list_a = [1, 2, 3, 4, 5]
+list_b = [10, 20, 30]
+
+for number_a in list_a:
+    for number_b in list_b:
+        print(f'{number_a} + {number_b} = {number_a + number_b}')
+
