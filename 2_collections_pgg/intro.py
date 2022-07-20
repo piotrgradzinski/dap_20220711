@@ -179,3 +179,18 @@ for number_a in list_a:
     for number_b in list_b:
         print(f'{number_a} + {number_b} = {number_a + number_b}')
 
+print('-' * 30)
+
+# We can treat strings as collection of characters
+my_string = "To be or not be"
+
+# access operator
+print(my_string[0])
+print(my_string[1:3])
+print(my_string[::-1])
+
+print(my_string.lower())
+print(my_string.upper())
+print(my_string.title())
+print(my_string.capitalize())
+print(my_string.casefold())
