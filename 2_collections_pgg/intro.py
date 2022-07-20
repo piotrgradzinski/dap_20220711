@@ -144,3 +144,27 @@ print('---')
 tuple_of_numbers = (10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
 for number in tuple_of_numbers:
     print(number)
+
+print('-' * 30)
+
+# How I can iterate through a collection and have both index number and value?
+list_of_numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+for index, number in enumerate(list_of_numbers):
+    print(f'{index} = {number}')
+
+print('-' * 30)
+
+# range function
+# range(start, stop-1, step)
+for i in range(11):
+    print(i)
+
+print('-' * 30)
+
+for i in range(-5, 6):
+    print(i)
+
+print('-' * 30)
+
+for i in range(-5, 6, 2):
+    print(i)
