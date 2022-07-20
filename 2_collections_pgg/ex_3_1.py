@@ -7,13 +7,15 @@ Write a program that counts occurrences of positive and negative numbers in a gi
 
 numbers = [1, 2, 3, -100, -10, 0, 4]
 
-positive_numbers = 0
-negative_numbers = 0
+positive_numbers = []
+negative_numbers = []
 
 for number in numbers:
     if number > 0:
-        positive_numbers += 1
+        positive_numbers.append(number)
     elif number < 0:
-        negative_numbers += 1
+        negative_numbers.append(number)
 
-print(f'Negatives: {negative_numbers}, positives: {positive_numbers}')
+print(positive_numbers)
+print(negative_numbers)
+print(f'Negatives: {len(negative_numbers)}, positives: {len(positive_numbers)}')
