@@ -28,3 +28,7 @@ characters = list(string)
 print(f"{characters = }")
 print(f'{"lit" in characters = }')
 
+word = "adam"
+print(word.upper())
+print(word.capitalize())
+print(word.split("a"))
